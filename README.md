@@ -26,8 +26,8 @@ To register a new user with the api follow these steps:
 }
 ```
 
-- How to make an authenticated request to retrieve all users
- (GET) http://localhost:4000/users
+- How to make an authenticated request to retrieve all users \
+ (GET) http://localhost:4000/users \
 Select the "Authorization" tab below the URL field, change the type to "Bearer Token" in the type dropdown selector, and paste the JWT token from the previous authenticate step into the "Token" field.
 
 - Get user by Id (GET) - http://localhost:4000/users/1
